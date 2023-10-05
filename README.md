@@ -1,16 +1,18 @@
 # Assessment Development
 
-Welcome to the coding assessment. This repository contains two coding tasks, each accompanied by a piece of sample
-code. These tasks are designed to gauge your coding skills and problem-solving abilities. While you are expected to
-complete each task within one hour, it's important to focus on the quality of your code. For those familiar with
-PHPUnit, providing tests for your solutions is a strong plus.
+Hello there! Glad you're here. In this repository, are two tasks with each a piece of sample code. Each task requires a
+specific function to be defined which is described in the task.
+
+It's not about getting the right answer, they're about understanding your coding style and how you tackle problems.
+Each task should be finished within an hour. Supplying PHPUnit tests for each tasks is a plus
 ***
+
 ## Task 1: Reverse Linked List
 
 ### Problem Description
 
-Implement a function named reverse() that takes a linked list and returns its reversed form. Use the LinkedList class
-provided below to represent the linked list nodes:
+Write a function called reverse() which reverses given linked list built using instances
+of the LinkedList class.
 
 ```php
 class LinkedList {
@@ -44,14 +46,17 @@ var_dump($reversedHead->val);       // 3
 var_dump($reversedHead->next->val);  // 2
 var_dump($reversedHead->next->next->val); // 1
 ```
+
 ***
+
 ## Task 2: Word Search
 
 ### Problem Description
 
-Create a function named searchWord() that accepts a multidimensional array of characters representing a board as its
-first parameter and a string as its second. The function should determine and return whether the provided string can be
-constructed by connecting adjacent characters on the board.
+Write a function called searchWord() that takes a board in the form of a
+multidimensional array of characters as its first parameter and a string as its second
+parameter and returns whether the given string can be formed using adjacent
+characters from the board.
 
 ***Note: Diagonal connections are not considered adjacent.***
 
