@@ -4,7 +4,7 @@ use PHPUnit\Framework\TestCase;
 
 require '../src/searchWord.php';
 
-class searchWordTest extends TestCase
+class SearchWordTest extends TestCase
 {
     private array $board = [
         ['a', 'b', 'c', 'd'],
