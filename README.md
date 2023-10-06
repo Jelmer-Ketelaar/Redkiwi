@@ -5,7 +5,12 @@ specific function to be defined which is described in the task.
 
 It's not about getting the right answer, they're about understanding your coding style and how you tackle problems.
 Each task should be finished within an hour. Supplying PHPUnit tests for each tasks is a plus
-***
+
+To run the tests, you can use the following command:
+
+```bash
+composer install
+```
 
 ## Task 1: Reverse Linked List
 
@@ -46,8 +51,6 @@ var_dump($reversedHead->val);       // 3
 var_dump($reversedHead->next->val);  // 2
 var_dump($reversedHead->next->next->val); // 1
 ```
-
-***
 
 ## Task 2: Word Search
 
